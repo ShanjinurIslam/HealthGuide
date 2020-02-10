@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/app_bar_fav"
+        android:icon="@android:drawable/sym_action_chat"
+        android:title="action_favorite"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@android:drawable/sym_action_chat"
+        android:title="action_search"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/app_bar_fav_2"
+        android:icon="@android:drawable/sym_action_chat"
+        android:title="action_favorite"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/app_bar_search_2"
+        android:icon="@android:drawable/sym_action_chat"
+        android:title="action_search"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/app_bar_settings"
+        android:title="action_settings"
+        app:showAsAction="never"/>
+</menu>
